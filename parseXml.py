@@ -8,7 +8,7 @@ Function:
 import xmltodict;
 import json , io ,sysconfig,locale,os
 import sys
-kshen4@me.com
+
 
 
 # sys.stdout = sys.stdout.detach()
@@ -42,11 +42,11 @@ def pythonXmlToJson():
     jsonStr = json.dumps(convertedDict)
     print("jsonStr=", jsonStr)
 
-    try:
-            with open('schedule.json', "w") as dig:
-                    print(jsonStr, file=dig)
-    except IOError as err:
-            print('File error: ' + str(err))
+    #try:
+    #        with open('schedule.json', "w") as dig:
+    #                print(jsonStr, file=dig)
+    #except IOError as err:
+    #        print('File error: ' + str(err))
 
 ###############################################################################
 if __name__=="__main__":

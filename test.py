@@ -12,12 +12,13 @@ def fetch(url):
         response, content = h.request(url,headers = http_header)
         print ("Finish downloading data...")
 
-        # print(response['-content-encoding'])
+        # print(response['-content-encoding']
         print(response['status'])
-        print(content)
+        str_content = content.decode('utf-8')
+        print(str_content)
         try:
-                with open('baidu.html',"w") as dig:
-                        print(content,file = dig)
+                file = open('111.xml',"w")
+                file.write(str_content)
         except IOError as err:
                 print('File error: ' + str(err))
 
