@@ -17,10 +17,10 @@ def fetch(url):
         str_content = content.decode('utf-8')
         print(str_content)
         try:
-                file = open('111.xml',"w")
+                file = open('/Users/kshen4/code/sportdataanalysis2/WC_Schedule.xml',"w")
                 file.write(str_content)
         except IOError as err:
                 print('File error: ' + str(err))
 
 if __name__ == "__main__":
-        fetch("http://api.sportsdatallc.org/nba-t3/games/2013/reg/schedule.xml?api_key=9ur3zyfemmyeaeqjqv3zekrz")
+        fetch("http://api.sportsdatallc.org/soccer-t2/wc/matches/schedule.xml?api_key=ug2fudww7a67kcech2jhmemj")

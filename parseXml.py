@@ -27,7 +27,7 @@ def pythonXmlToJson():
         demo Python xml to json
     """
 
-    f = open("schedule.xml","r", encoding='utf-8')
+    f = open("/Users/kshen4/code/sportdataanalysis2/Team_Hierarchy.xml","r", encoding='utf-8')
     print(f.encoding)
     # all_the_text = f.readlines()
     # print(all_the_text.encode('utf-8'))
@@ -42,11 +42,11 @@ def pythonXmlToJson():
     jsonStr = json.dumps(convertedDict)
     print("jsonStr=", jsonStr)
 
-    #try:
-    #        with open('schedule.json', "w") as dig:
-    #                print(jsonStr, file=dig)
-    #except IOError as err:
-    #        print('File error: ' + str(err))
+    try:
+            with open("/Users/kshen4/code/sportdataanalysis2/Team_Hierarchy.json", "w") as dig:
+                    print(jsonStr, file=dig)
+    except IOError as err:
+            print('File error: ' + str(err))
 
 ###############################################################################
 if __name__=="__main__":
