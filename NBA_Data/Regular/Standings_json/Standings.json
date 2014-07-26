@@ -1,0 +1,3461 @@
+{
+    "league": {
+        "@alias": "NBA",
+        "@id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+        "@name": "NBA",
+        "@xmlns": "http://feed.elasticstats.com/schema/basketball/nba/standings-v2.0.xsd",
+        "season": {
+            "@id": "5ddc217a-a958-4616-9bdf-e081022c440b",
+            "@type": "REG",
+            "@year": "2013",
+            "conference": [
+                {
+                    "@alias": "WESTERN",
+                    "@id": "7fe7e212-de01-4f8f-a31d-b9f0a95731e3",
+                    "@name": "WESTERN CONFERENCE",
+                    "division": [
+                        {
+                            "@alias": "PACIFIC",
+                            "@id": "f074cb3e-90cf-42e1-8067-cdbcd99ec230",
+                            "@name": "Pacific",
+                            "team": [
+                                {
+                                    "@id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "25",
+                                    "@market": "Los Angeles",
+                                    "@name": "Clippers",
+                                    "@point_diff": "6.98",
+                                    "@points_against": "100.95",
+                                    "@points_for": "107.93",
+                                    "@win_pct": "0.695",
+                                    "@wins": "57",
+                                    "games-behind": {
+                                        "@conference": "5.0",
+                                        "@division": "0.0",
+                                        "@league": "5.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.9",
+                                            "@wins": "9"
+                                        },
+                                        "below_500": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.811",
+                                            "@wins": "30"
+                                        },
+                                        "central": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "conference": {
+                                            "@losses": "16",
+                                            "@win_pct": "0.692",
+                                            "@wins": "36"
+                                        },
+                                        "division": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.75",
+                                            "@wins": "12"
+                                        },
+                                        "home": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.829",
+                                            "@wins": "34"
+                                        },
+                                        "last_10": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "northwest": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.667",
+                                            "@wins": "12"
+                                        },
+                                        "over_500": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.6",
+                                            "@wins": "27"
+                                        },
+                                        "overtime": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.667",
+                                            "@wins": "2"
+                                        },
+                                        "pacific": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.75",
+                                            "@wins": "12"
+                                        },
+                                        "road": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.561",
+                                            "@wins": "23"
+                                        },
+                                        "southeast": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "southwest": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.667",
+                                            "@wins": "12"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.769",
+                                            "@wins": "30"
+                                        },
+                                        "three_points": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.571",
+                                            "@wins": "4"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "31",
+                                    "@market": "Golden State",
+                                    "@name": "Warriors",
+                                    "@point_diff": "4.81",
+                                    "@points_against": "99.45",
+                                    "@points_for": "104.26",
+                                    "@win_pct": "0.622",
+                                    "@wins": "51",
+                                    "games-behind": {
+                                        "@conference": "11.0",
+                                        "@division": "6.0",
+                                        "@league": "11.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "below_500": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.703",
+                                            "@wins": "26"
+                                        },
+                                        "central": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "conference": {
+                                            "@losses": "21",
+                                            "@win_pct": "0.596",
+                                            "@wins": "31"
+                                        },
+                                        "division": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "home": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.659",
+                                            "@wins": "27"
+                                        },
+                                        "last_10": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "northwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.611",
+                                            "@wins": "11"
+                                        },
+                                        "over_500": {
+                                            "@losses": "20",
+                                            "@win_pct": "0.556",
+                                            "@wins": "25"
+                                        },
+                                        "overtime": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.5",
+                                            "@wins": "3"
+                                        },
+                                        "pacific": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "road": {
+                                            "@losses": "17",
+                                            "@win_pct": "0.585",
+                                            "@wins": "24"
+                                        },
+                                        "southeast": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "southwest": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.5",
+                                            "@wins": "9"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.757",
+                                            "@wins": "28"
+                                        },
+                                        "three_points": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.579",
+                                            "@wins": "11"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "2"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "34",
+                                    "@market": "Phoenix",
+                                    "@name": "Suns",
+                                    "@point_diff": "2.63",
+                                    "@points_against": "102.6",
+                                    "@points_for": "105.23",
+                                    "@win_pct": "0.585",
+                                    "@wins": "48",
+                                    "games-behind": {
+                                        "@conference": "14.0",
+                                        "@division": "9.0",
+                                        "@league": "14.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "below_500": {
+                                            "@losses": "15",
+                                            "@win_pct": "0.634",
+                                            "@wins": "26"
+                                        },
+                                        "central": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "conference": {
+                                            "@losses": "24",
+                                            "@win_pct": "0.538",
+                                            "@wins": "28"
+                                        },
+                                        "division": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.5",
+                                            "@wins": "8"
+                                        },
+                                        "home": {
+                                            "@losses": "15",
+                                            "@win_pct": "0.634",
+                                            "@wins": "26"
+                                        },
+                                        "last_10": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "northwest": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.722",
+                                            "@wins": "13"
+                                        },
+                                        "over_500": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.537",
+                                            "@wins": "22"
+                                        },
+                                        "overtime": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.333",
+                                            "@wins": "1"
+                                        },
+                                        "pacific": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.5",
+                                            "@wins": "8"
+                                        },
+                                        "road": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.537",
+                                            "@wins": "22"
+                                        },
+                                        "southeast": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "southwest": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.389",
+                                            "@wins": "7"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.731",
+                                            "@wins": "19"
+                                        },
+                                        "three_points": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.182",
+                                            "@wins": "2"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "54",
+                                    "@market": "Sacramento",
+                                    "@name": "Kings",
+                                    "@point_diff": "-2.9",
+                                    "@points_against": "103.4",
+                                    "@points_for": "100.5",
+                                    "@win_pct": "0.341",
+                                    "@wins": "28",
+                                    "games-behind": {
+                                        "@conference": "34.0",
+                                        "@division": "29.0",
+                                        "@league": "34.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "below_500": {
+                                            "@losses": "17",
+                                            "@win_pct": "0.485",
+                                            "@wins": "16"
+                                        },
+                                        "central": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "conference": {
+                                            "@losses": "37",
+                                            "@win_pct": "0.288",
+                                            "@wins": "15"
+                                        },
+                                        "division": {
+                                            "@losses": "13",
+                                            "@win_pct": "0.188",
+                                            "@wins": "3"
+                                        },
+                                        "home": {
+                                            "@losses": "24",
+                                            "@win_pct": "0.415",
+                                            "@wins": "17"
+                                        },
+                                        "last_10": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "northwest": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.333",
+                                            "@wins": "6"
+                                        },
+                                        "over_500": {
+                                            "@losses": "37",
+                                            "@win_pct": "0.245",
+                                            "@wins": "12"
+                                        },
+                                        "overtime": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.667",
+                                            "@wins": "4"
+                                        },
+                                        "pacific": {
+                                            "@losses": "13",
+                                            "@win_pct": "0.188",
+                                            "@wins": "3"
+                                        },
+                                        "road": {
+                                            "@losses": "30",
+                                            "@win_pct": "0.268",
+                                            "@wins": "11"
+                                        },
+                                        "southeast": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "southwest": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.333",
+                                            "@wins": "6"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "26",
+                                            "@win_pct": "0.316",
+                                            "@wins": "12"
+                                        },
+                                        "three_points": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.308",
+                                            "@wins": "4"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "55",
+                                    "@market": "Los Angeles",
+                                    "@name": "Lakers",
+                                    "@point_diff": "-6.29",
+                                    "@points_against": "109.24",
+                                    "@points_for": "102.95",
+                                    "@win_pct": "0.329",
+                                    "@wins": "27",
+                                    "games-behind": {
+                                        "@conference": "35.0",
+                                        "@division": "30.0",
+                                        "@league": "35.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "below_500": {
+                                            "@losses": "22",
+                                            "@win_pct": "0.436",
+                                            "@wins": "17"
+                                        },
+                                        "central": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "conference": {
+                                            "@losses": "37",
+                                            "@win_pct": "0.288",
+                                            "@wins": "15"
+                                        },
+                                        "division": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.375",
+                                            "@wins": "6"
+                                        },
+                                        "home": {
+                                            "@losses": "27",
+                                            "@win_pct": "0.341",
+                                            "@wins": "14"
+                                        },
+                                        "last_10": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "northwest": {
+                                            "@losses": "13",
+                                            "@win_pct": "0.278",
+                                            "@wins": "5"
+                                        },
+                                        "over_500": {
+                                            "@losses": "33",
+                                            "@win_pct": "0.233",
+                                            "@wins": "10"
+                                        },
+                                        "overtime": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.0",
+                                            "@wins": "0"
+                                        },
+                                        "pacific": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.375",
+                                            "@wins": "6"
+                                        },
+                                        "road": {
+                                            "@losses": "28",
+                                            "@win_pct": "0.317",
+                                            "@wins": "13"
+                                        },
+                                        "southeast": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "southwest": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.222",
+                                            "@wins": "4"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "33",
+                                            "@win_pct": "0.267",
+                                            "@wins": "12"
+                                        },
+                                        "three_points": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "2"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@alias": "SOUTHWEST",
+                            "@id": "1d29f94c-9587-494b-a232-feb20a40eb4c",
+                            "@name": "Southwest",
+                            "team": [
+                                {
+                                    "@id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "20",
+                                    "@market": "San Antonio",
+                                    "@name": "Spurs",
+                                    "@point_diff": "7.72",
+                                    "@points_against": "97.63",
+                                    "@points_for": "105.35",
+                                    "@win_pct": "0.756",
+                                    "@wins": "62",
+                                    "games-behind": {
+                                        "@conference": "0.0",
+                                        "@division": "0.0",
+                                        "@league": "0.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "below_500": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.892",
+                                            "@wins": "33"
+                                        },
+                                        "central": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "conference": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.731",
+                                            "@wins": "38"
+                                        },
+                                        "division": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.75",
+                                            "@wins": "12"
+                                        },
+                                        "home": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.78",
+                                            "@wins": "32"
+                                        },
+                                        "last_10": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.9",
+                                            "@wins": "9"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "northwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.611",
+                                            "@wins": "11"
+                                        },
+                                        "over_500": {
+                                            "@losses": "16",
+                                            "@win_pct": "0.644",
+                                            "@wins": "29"
+                                        },
+                                        "overtime": {
+                                            "@losses": "0",
+                                            "@win_pct": "1.0",
+                                            "@wins": "2"
+                                        },
+                                        "pacific": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.833",
+                                            "@wins": "15"
+                                        },
+                                        "road": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.732",
+                                            "@wins": "30"
+                                        },
+                                        "southeast": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.9",
+                                            "@wins": "9"
+                                        },
+                                        "southwest": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.75",
+                                            "@wins": "12"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.745",
+                                            "@wins": "35"
+                                        },
+                                        "three_points": {
+                                            "@losses": "0",
+                                            "@win_pct": "1.0",
+                                            "@wins": "7"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "2"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "28",
+                                    "@market": "Houston",
+                                    "@name": "Rockets",
+                                    "@point_diff": "4.56",
+                                    "@points_against": "103.11",
+                                    "@points_for": "107.67",
+                                    "@win_pct": "0.659",
+                                    "@wins": "54",
+                                    "games-behind": {
+                                        "@conference": "8.0",
+                                        "@division": "8.0",
+                                        "@league": "8.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "below_500": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.842",
+                                            "@wins": "32"
+                                        },
+                                        "central": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "conference": {
+                                            "@losses": "21",
+                                            "@win_pct": "0.596",
+                                            "@wins": "31"
+                                        },
+                                        "division": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "home": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.805",
+                                            "@wins": "33"
+                                        },
+                                        "last_10": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.9",
+                                            "@wins": "9"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "northwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.611",
+                                            "@wins": "11"
+                                        },
+                                        "over_500": {
+                                            "@losses": "22",
+                                            "@win_pct": "0.5",
+                                            "@wins": "22"
+                                        },
+                                        "overtime": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.6",
+                                            "@wins": "3"
+                                        },
+                                        "pacific": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.5",
+                                            "@wins": "9"
+                                        },
+                                        "road": {
+                                            "@losses": "20",
+                                            "@win_pct": "0.512",
+                                            "@wins": "21"
+                                        },
+                                        "southeast": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "southwest": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.769",
+                                            "@wins": "30"
+                                        },
+                                        "three_points": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.538",
+                                            "@wins": "7"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "32",
+                                    "@market": "Memphis",
+                                    "@name": "Grizzlies",
+                                    "@point_diff": "1.57",
+                                    "@points_against": "94.57",
+                                    "@points_for": "96.15",
+                                    "@win_pct": "0.61",
+                                    "@wins": "50",
+                                    "games-behind": {
+                                        "@conference": "12.0",
+                                        "@division": "12.0",
+                                        "@league": "12.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "below_500": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.694",
+                                            "@wins": "25"
+                                        },
+                                        "central": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "conference": {
+                                            "@losses": "23",
+                                            "@win_pct": "0.558",
+                                            "@wins": "29"
+                                        },
+                                        "division": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "home": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.659",
+                                            "@wins": "27"
+                                        },
+                                        "last_10": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "0",
+                                            "@win_pct": "1.0",
+                                            "@wins": "10"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "northwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.611",
+                                            "@wins": "11"
+                                        },
+                                        "over_500": {
+                                            "@losses": "21",
+                                            "@win_pct": "0.543",
+                                            "@wins": "25"
+                                        },
+                                        "overtime": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.6",
+                                            "@wins": "3"
+                                        },
+                                        "pacific": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.778",
+                                            "@wins": "14"
+                                        },
+                                        "road": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.561",
+                                            "@wins": "23"
+                                        },
+                                        "southeast": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "southwest": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "13",
+                                            "@win_pct": "0.581",
+                                            "@wins": "18"
+                                        },
+                                        "three_points": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.714",
+                                            "@wins": "10"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "5"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "33",
+                                    "@market": "Dallas",
+                                    "@name": "Mavericks",
+                                    "@point_diff": "2.4",
+                                    "@points_against": "102.44",
+                                    "@points_for": "104.84",
+                                    "@win_pct": "0.598",
+                                    "@wins": "49",
+                                    "games-behind": {
+                                        "@conference": "13.0",
+                                        "@division": "13.0",
+                                        "@league": "13.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "below_500": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.784",
+                                            "@wins": "29"
+                                        },
+                                        "central": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.9",
+                                            "@wins": "9"
+                                        },
+                                        "conference": {
+                                            "@losses": "23",
+                                            "@win_pct": "0.558",
+                                            "@wins": "29"
+                                        },
+                                        "division": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.563",
+                                            "@wins": "9"
+                                        },
+                                        "home": {
+                                            "@losses": "15",
+                                            "@win_pct": "0.634",
+                                            "@wins": "26"
+                                        },
+                                        "last_10": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "northwest": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.556",
+                                            "@wins": "10"
+                                        },
+                                        "over_500": {
+                                            "@losses": "25",
+                                            "@win_pct": "0.444",
+                                            "@wins": "20"
+                                        },
+                                        "overtime": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.167",
+                                            "@wins": "1"
+                                        },
+                                        "pacific": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.556",
+                                            "@wins": "10"
+                                        },
+                                        "road": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.561",
+                                            "@wins": "23"
+                                        },
+                                        "southeast": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "southwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.563",
+                                            "@wins": "9"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.697",
+                                            "@wins": "23"
+                                        },
+                                        "three_points": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.5",
+                                            "@wins": "11"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "48",
+                                    "@market": "New Orleans",
+                                    "@name": "Pelicans",
+                                    "@point_diff": "-2.71",
+                                    "@points_against": "102.43",
+                                    "@points_for": "99.72",
+                                    "@win_pct": "0.415",
+                                    "@wins": "34",
+                                    "games-behind": {
+                                        "@conference": "28.0",
+                                        "@division": "28.0",
+                                        "@league": "28.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "below_500": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.588",
+                                            "@wins": "20"
+                                        },
+                                        "central": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "conference": {
+                                            "@losses": "37",
+                                            "@win_pct": "0.288",
+                                            "@wins": "15"
+                                        },
+                                        "division": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "home": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.537",
+                                            "@wins": "22"
+                                        },
+                                        "last_10": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "northwest": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.389",
+                                            "@wins": "7"
+                                        },
+                                        "over_500": {
+                                            "@losses": "34",
+                                            "@win_pct": "0.292",
+                                            "@wins": "14"
+                                        },
+                                        "overtime": {
+                                            "@losses": "0",
+                                            "@win_pct": "1.0",
+                                            "@wins": "5"
+                                        },
+                                        "pacific": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.222",
+                                            "@wins": "4"
+                                        },
+                                        "road": {
+                                            "@losses": "29",
+                                            "@win_pct": "0.293",
+                                            "@wins": "12"
+                                        },
+                                        "southeast": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "southwest": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "21",
+                                            "@win_pct": "0.323",
+                                            "@wins": "10"
+                                        },
+                                        "three_points": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.467",
+                                            "@wins": "7"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "2"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@alias": "NORTHWEST",
+                            "@id": "12bf14ba-eb16-4c6f-8275-e801b6947c1e",
+                            "@name": "Northwest",
+                            "team": [
+                                {
+                                    "@id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "23",
+                                    "@market": "Oklahoma City",
+                                    "@name": "Thunder",
+                                    "@point_diff": "6.34",
+                                    "@points_against": "99.82",
+                                    "@points_for": "106.16",
+                                    "@win_pct": "0.72",
+                                    "@wins": "59",
+                                    "games-behind": {
+                                        "@conference": "3.0",
+                                        "@division": "0.0",
+                                        "@league": "3.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "below_500": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.757",
+                                            "@wins": "28"
+                                        },
+                                        "central": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "conference": {
+                                            "@losses": "16",
+                                            "@win_pct": "0.692",
+                                            "@wins": "36"
+                                        },
+                                        "division": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "home": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.829",
+                                            "@wins": "34"
+                                        },
+                                        "last_10": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.9",
+                                            "@wins": "9"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "northwest": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "over_500": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.689",
+                                            "@wins": "31"
+                                        },
+                                        "overtime": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.75",
+                                            "@wins": "3"
+                                        },
+                                        "pacific": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.667",
+                                            "@wins": "12"
+                                        },
+                                        "road": {
+                                            "@losses": "16",
+                                            "@win_pct": "0.61",
+                                            "@wins": "25"
+                                        },
+                                        "southeast": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "southwest": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.722",
+                                            "@wins": "13"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.805",
+                                            "@wins": "33"
+                                        },
+                                        "three_points": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.714",
+                                            "@wins": "10"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "28",
+                                    "@market": "Portland",
+                                    "@name": "Trail Blazers",
+                                    "@point_diff": "3.99",
+                                    "@points_against": "102.76",
+                                    "@points_for": "106.74",
+                                    "@win_pct": "0.659",
+                                    "@wins": "54",
+                                    "games-behind": {
+                                        "@conference": "8.0",
+                                        "@division": "5.0",
+                                        "@league": "8.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.9",
+                                            "@wins": "9"
+                                        },
+                                        "below_500": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.829",
+                                            "@wins": "34"
+                                        },
+                                        "central": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.9",
+                                            "@wins": "9"
+                                        },
+                                        "conference": {
+                                            "@losses": "21",
+                                            "@win_pct": "0.596",
+                                            "@wins": "31"
+                                        },
+                                        "division": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.813",
+                                            "@wins": "13"
+                                        },
+                                        "home": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.756",
+                                            "@wins": "31"
+                                        },
+                                        "last_10": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.9",
+                                            "@wins": "9"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "northwest": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.813",
+                                            "@wins": "13"
+                                        },
+                                        "over_500": {
+                                            "@losses": "21",
+                                            "@win_pct": "0.488",
+                                            "@wins": "20"
+                                        },
+                                        "overtime": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.714",
+                                            "@wins": "5"
+                                        },
+                                        "pacific": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.556",
+                                            "@wins": "10"
+                                        },
+                                        "road": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.561",
+                                            "@wins": "23"
+                                        },
+                                        "southeast": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "southwest": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.444",
+                                            "@wins": "8"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "13",
+                                            "@win_pct": "0.649",
+                                            "@wins": "24"
+                                        },
+                                        "three_points": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.471",
+                                            "@wins": "8"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "5"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "42",
+                                    "@market": "Minnesota",
+                                    "@name": "Timberwolves",
+                                    "@point_diff": "2.67",
+                                    "@points_against": "104.26",
+                                    "@points_for": "106.93",
+                                    "@win_pct": "0.488",
+                                    "@wins": "40",
+                                    "games-behind": {
+                                        "@conference": "22.0",
+                                        "@division": "19.0",
+                                        "@league": "22.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "below_500": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.684",
+                                            "@wins": "26"
+                                        },
+                                        "central": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "conference": {
+                                            "@losses": "29",
+                                            "@win_pct": "0.442",
+                                            "@wins": "23"
+                                        },
+                                        "division": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.438",
+                                            "@wins": "7"
+                                        },
+                                        "home": {
+                                            "@losses": "17",
+                                            "@win_pct": "0.585",
+                                            "@wins": "24"
+                                        },
+                                        "last_10": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "northwest": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.438",
+                                            "@wins": "7"
+                                        },
+                                        "over_500": {
+                                            "@losses": "30",
+                                            "@win_pct": "0.318",
+                                            "@wins": "14"
+                                        },
+                                        "overtime": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.6",
+                                            "@wins": "3"
+                                        },
+                                        "pacific": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.389",
+                                            "@wins": "7"
+                                        },
+                                        "road": {
+                                            "@losses": "25",
+                                            "@win_pct": "0.39",
+                                            "@wins": "16"
+                                        },
+                                        "southeast": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "southwest": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.5",
+                                            "@wins": "9"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.591",
+                                            "@wins": "26"
+                                        },
+                                        "three_points": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.455",
+                                            "@wins": "5"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "3"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "46",
+                                    "@market": "Denver",
+                                    "@name": "Nuggets",
+                                    "@point_diff": "-2.15",
+                                    "@points_against": "106.52",
+                                    "@points_for": "104.38",
+                                    "@win_pct": "0.439",
+                                    "@wins": "36",
+                                    "games-behind": {
+                                        "@conference": "26.0",
+                                        "@division": "23.0",
+                                        "@league": "26.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "below_500": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.514",
+                                            "@wins": "19"
+                                        },
+                                        "central": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "conference": {
+                                            "@losses": "32",
+                                            "@win_pct": "0.385",
+                                            "@wins": "20"
+                                        },
+                                        "division": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.313",
+                                            "@wins": "5"
+                                        },
+                                        "home": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.537",
+                                            "@wins": "22"
+                                        },
+                                        "last_10": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "northwest": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.313",
+                                            "@wins": "5"
+                                        },
+                                        "over_500": {
+                                            "@losses": "28",
+                                            "@win_pct": "0.378",
+                                            "@wins": "17"
+                                        },
+                                        "overtime": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.0",
+                                            "@wins": "0"
+                                        },
+                                        "pacific": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.444",
+                                            "@wins": "8"
+                                        },
+                                        "road": {
+                                            "@losses": "27",
+                                            "@win_pct": "0.341",
+                                            "@wins": "14"
+                                        },
+                                        "southeast": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "southwest": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.389",
+                                            "@wins": "7"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "24",
+                                            "@win_pct": "0.4",
+                                            "@wins": "16"
+                                        },
+                                        "three_points": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.615",
+                                            "@wins": "8"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "2"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "57",
+                                    "@market": "Utah",
+                                    "@name": "Jazz",
+                                    "@point_diff": "-7.17",
+                                    "@points_against": "102.18",
+                                    "@points_for": "95.01",
+                                    "@win_pct": "0.305",
+                                    "@wins": "25",
+                                    "games-behind": {
+                                        "@conference": "37.0",
+                                        "@division": "34.0",
+                                        "@league": "37.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "below_500": {
+                                            "@losses": "23",
+                                            "@win_pct": "0.41",
+                                            "@wins": "16"
+                                        },
+                                        "central": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "conference": {
+                                            "@losses": "39",
+                                            "@win_pct": "0.25",
+                                            "@wins": "13"
+                                        },
+                                        "division": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "home": {
+                                            "@losses": "25",
+                                            "@win_pct": "0.39",
+                                            "@wins": "16"
+                                        },
+                                        "last_10": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "northwest": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "over_500": {
+                                            "@losses": "34",
+                                            "@win_pct": "0.209",
+                                            "@wins": "9"
+                                        },
+                                        "overtime": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.667",
+                                            "@wins": "2"
+                                        },
+                                        "pacific": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.333",
+                                            "@wins": "6"
+                                        },
+                                        "road": {
+                                            "@losses": "32",
+                                            "@win_pct": "0.22",
+                                            "@wins": "9"
+                                        },
+                                        "southeast": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "southwest": {
+                                            "@losses": "15",
+                                            "@win_pct": "0.167",
+                                            "@wins": "3"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "39",
+                                            "@win_pct": "0.188",
+                                            "@wins": "9"
+                                        },
+                                        "three_points": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.556",
+                                            "@wins": "5"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@alias": "EASTERN",
+                    "@id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+                    "@name": "EASTERN CONFERENCE",
+                    "division": [
+                        {
+                            "@alias": "SOUTHEAST",
+                            "@id": "54dc7348-c1d2-40d8-88b3-c4c0138e085d",
+                            "@name": "Southeast",
+                            "team": [
+                                {
+                                    "@id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "28",
+                                    "@market": "Miami",
+                                    "@name": "Heat",
+                                    "@point_diff": "4.76",
+                                    "@points_against": "97.44",
+                                    "@points_for": "102.2",
+                                    "@win_pct": "0.659",
+                                    "@wins": "54",
+                                    "games-behind": {
+                                        "@conference": "2.0",
+                                        "@division": "0.0",
+                                        "@league": "8.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.5",
+                                            "@wins": "9"
+                                        },
+                                        "below_500": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.674",
+                                            "@wins": "29"
+                                        },
+                                        "central": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.722",
+                                            "@wins": "13"
+                                        },
+                                        "conference": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.654",
+                                            "@wins": "34"
+                                        },
+                                        "division": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.75",
+                                            "@wins": "12"
+                                        },
+                                        "home": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.78",
+                                            "@wins": "32"
+                                        },
+                                        "last_10": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "northwest": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "over_500": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.641",
+                                            "@wins": "25"
+                                        },
+                                        "overtime": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.333",
+                                            "@wins": "2"
+                                        },
+                                        "pacific": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "road": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.537",
+                                            "@wins": "22"
+                                        },
+                                        "southeast": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.75",
+                                            "@wins": "12"
+                                        },
+                                        "southwest": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.744",
+                                            "@wins": "29"
+                                        },
+                                        "three_points": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.533",
+                                            "@wins": "8"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "3"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "38",
+                                    "@market": "Washington",
+                                    "@name": "Wizards",
+                                    "@point_diff": "1.27",
+                                    "@points_against": "99.39",
+                                    "@points_for": "100.66",
+                                    "@win_pct": "0.537",
+                                    "@wins": "44",
+                                    "games-behind": {
+                                        "@conference": "12.0",
+                                        "@division": "10.0",
+                                        "@league": "18.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.722",
+                                            "@wins": "13"
+                                        },
+                                        "below_500": {
+                                            "@losses": "13",
+                                            "@win_pct": "0.698",
+                                            "@wins": "30"
+                                        },
+                                        "central": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.556",
+                                            "@wins": "10"
+                                        },
+                                        "conference": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.635",
+                                            "@wins": "33"
+                                        },
+                                        "division": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.625",
+                                            "@wins": "10"
+                                        },
+                                        "home": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.537",
+                                            "@wins": "22"
+                                        },
+                                        "last_10": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "northwest": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "over_500": {
+                                            "@losses": "25",
+                                            "@win_pct": "0.359",
+                                            "@wins": "14"
+                                        },
+                                        "overtime": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.333",
+                                            "@wins": "4"
+                                        },
+                                        "pacific": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "road": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.537",
+                                            "@wins": "22"
+                                        },
+                                        "southeast": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.625",
+                                            "@wins": "10"
+                                        },
+                                        "southwest": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.576",
+                                            "@wins": "19"
+                                        },
+                                        "three_points": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.357",
+                                            "@wins": "5"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "4"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "39",
+                                    "@market": "Charlotte",
+                                    "@name": "Hornets",
+                                    "@point_diff": "-0.22",
+                                    "@points_against": "97.07",
+                                    "@points_for": "96.85",
+                                    "@win_pct": "0.524",
+                                    "@wins": "43",
+                                    "games-behind": {
+                                        "@conference": "13.0",
+                                        "@division": "11.0",
+                                        "@league": "19.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.611",
+                                            "@wins": "11"
+                                        },
+                                        "below_500": {
+                                            "@losses": "17",
+                                            "@win_pct": "0.595",
+                                            "@wins": "25"
+                                        },
+                                        "central": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.722",
+                                            "@wins": "13"
+                                        },
+                                        "conference": {
+                                            "@losses": "22",
+                                            "@win_pct": "0.577",
+                                            "@wins": "30"
+                                        },
+                                        "division": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.375",
+                                            "@wins": "6"
+                                        },
+                                        "home": {
+                                            "@losses": "16",
+                                            "@win_pct": "0.61",
+                                            "@wins": "25"
+                                        },
+                                        "last_10": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "northwest": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "over_500": {
+                                            "@losses": "22",
+                                            "@win_pct": "0.45",
+                                            "@wins": "18"
+                                        },
+                                        "overtime": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.667",
+                                            "@wins": "6"
+                                        },
+                                        "pacific": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "road": {
+                                            "@losses": "23",
+                                            "@win_pct": "0.439",
+                                            "@wins": "18"
+                                        },
+                                        "southeast": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.375",
+                                            "@wins": "6"
+                                        },
+                                        "southwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.486",
+                                            "@wins": "18"
+                                        },
+                                        "three_points": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.5",
+                                            "@wins": "8"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "3"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "44",
+                                    "@market": "Atlanta",
+                                    "@name": "Hawks",
+                                    "@point_diff": "-0.48",
+                                    "@points_against": "101.48",
+                                    "@points_for": "101.0",
+                                    "@win_pct": "0.463",
+                                    "@wins": "38",
+                                    "games-behind": {
+                                        "@conference": "18.0",
+                                        "@division": "16.0",
+                                        "@league": "24.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.556",
+                                            "@wins": "10"
+                                        },
+                                        "below_500": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.558",
+                                            "@wins": "24"
+                                        },
+                                        "central": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.556",
+                                            "@wins": "10"
+                                        },
+                                        "conference": {
+                                            "@losses": "24",
+                                            "@win_pct": "0.538",
+                                            "@wins": "28"
+                                        },
+                                        "division": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.5",
+                                            "@wins": "8"
+                                        },
+                                        "home": {
+                                            "@losses": "17",
+                                            "@win_pct": "0.585",
+                                            "@wins": "24"
+                                        },
+                                        "last_10": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "northwest": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "over_500": {
+                                            "@losses": "25",
+                                            "@win_pct": "0.359",
+                                            "@wins": "14"
+                                        },
+                                        "overtime": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.8",
+                                            "@wins": "4"
+                                        },
+                                        "pacific": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "road": {
+                                            "@losses": "27",
+                                            "@win_pct": "0.341",
+                                            "@wins": "14"
+                                        },
+                                        "southeast": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.5",
+                                            "@wins": "8"
+                                        },
+                                        "southwest": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "16",
+                                            "@win_pct": "0.484",
+                                            "@wins": "15"
+                                        },
+                                        "three_points": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.471",
+                                            "@wins": "8"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "59",
+                                    "@market": "Orlando",
+                                    "@name": "Magic",
+                                    "@point_diff": "-5.44",
+                                    "@points_against": "101.95",
+                                    "@points_for": "96.51",
+                                    "@win_pct": "0.28",
+                                    "@wins": "23",
+                                    "games-behind": {
+                                        "@conference": "33.0",
+                                        "@division": "31.0",
+                                        "@league": "39.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.389",
+                                            "@wins": "7"
+                                        },
+                                        "below_500": {
+                                            "@losses": "27",
+                                            "@win_pct": "0.341",
+                                            "@wins": "14"
+                                        },
+                                        "central": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.333",
+                                            "@wins": "6"
+                                        },
+                                        "conference": {
+                                            "@losses": "35",
+                                            "@win_pct": "0.327",
+                                            "@wins": "17"
+                                        },
+                                        "division": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "home": {
+                                            "@losses": "22",
+                                            "@win_pct": "0.463",
+                                            "@wins": "19"
+                                        },
+                                        "last_10": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.0",
+                                            "@wins": "0"
+                                        },
+                                        "northwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "over_500": {
+                                            "@losses": "32",
+                                            "@win_pct": "0.22",
+                                            "@wins": "9"
+                                        },
+                                        "overtime": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.286",
+                                            "@wins": "2"
+                                        },
+                                        "pacific": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "road": {
+                                            "@losses": "37",
+                                            "@win_pct": "0.098",
+                                            "@wins": "4"
+                                        },
+                                        "southeast": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "southwest": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.1",
+                                            "@wins": "1"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "30",
+                                            "@win_pct": "0.25",
+                                            "@wins": "10"
+                                        },
+                                        "three_points": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.417",
+                                            "@wins": "5"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "4"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@alias": "CENTRAL",
+                            "@id": "f3aaf23a-1ceb-46ef-8fef-9403692e801b",
+                            "@name": "Central",
+                            "team": [
+                                {
+                                    "@id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "26",
+                                    "@market": "Indiana",
+                                    "@name": "Pacers",
+                                    "@point_diff": "4.4",
+                                    "@points_against": "92.34",
+                                    "@points_for": "96.74",
+                                    "@win_pct": "0.683",
+                                    "@wins": "56",
+                                    "games-behind": {
+                                        "@conference": "0.0",
+                                        "@division": "0.0",
+                                        "@league": "6.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.833",
+                                            "@wins": "15"
+                                        },
+                                        "below_500": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.809",
+                                            "@wins": "38"
+                                        },
+                                        "central": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.75",
+                                            "@wins": "12"
+                                        },
+                                        "conference": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.731",
+                                            "@wins": "38"
+                                        },
+                                        "division": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.75",
+                                            "@wins": "12"
+                                        },
+                                        "home": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.854",
+                                            "@wins": "35"
+                                        },
+                                        "last_10": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "northwest": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "over_500": {
+                                            "@losses": "17",
+                                            "@win_pct": "0.514",
+                                            "@wins": "18"
+                                        },
+                                        "overtime": {
+                                            "@losses": "0",
+                                            "@win_pct": "1.0",
+                                            "@wins": "4"
+                                        },
+                                        "pacific": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "road": {
+                                            "@losses": "20",
+                                            "@win_pct": "0.512",
+                                            "@wins": "21"
+                                        },
+                                        "southeast": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.611",
+                                            "@wins": "11"
+                                        },
+                                        "southwest": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "17",
+                                            "@win_pct": "0.63",
+                                            "@wins": "29"
+                                        },
+                                        "three_points": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.571",
+                                            "@wins": "4"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "2"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "34",
+                                    "@market": "Chicago",
+                                    "@name": "Bulls",
+                                    "@point_diff": "1.85",
+                                    "@points_against": "91.81",
+                                    "@points_for": "93.66",
+                                    "@win_pct": "0.585",
+                                    "@wins": "48",
+                                    "games-behind": {
+                                        "@conference": "8.0",
+                                        "@division": "8.0",
+                                        "@league": "14.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.667",
+                                            "@wins": "12"
+                                        },
+                                        "below_500": {
+                                            "@losses": "16",
+                                            "@win_pct": "0.66",
+                                            "@wins": "31"
+                                        },
+                                        "central": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "conference": {
+                                            "@losses": "17",
+                                            "@win_pct": "0.673",
+                                            "@wins": "35"
+                                        },
+                                        "division": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "home": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.659",
+                                            "@wins": "27"
+                                        },
+                                        "last_10": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "northwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "over_500": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.486",
+                                            "@wins": "17"
+                                        },
+                                        "overtime": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.5",
+                                            "@wins": "3"
+                                        },
+                                        "pacific": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "road": {
+                                            "@losses": "20",
+                                            "@win_pct": "0.512",
+                                            "@wins": "21"
+                                        },
+                                        "southeast": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.667",
+                                            "@wins": "12"
+                                        },
+                                        "southwest": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.587",
+                                            "@wins": "27"
+                                        },
+                                        "three_points": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.545",
+                                            "@wins": "6"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "49",
+                                    "@market": "Cleveland",
+                                    "@name": "Cavaliers",
+                                    "@point_diff": "-3.29",
+                                    "@points_against": "101.51",
+                                    "@points_for": "98.22",
+                                    "@win_pct": "0.402",
+                                    "@wins": "33",
+                                    "games-behind": {
+                                        "@conference": "23.0",
+                                        "@division": "23.0",
+                                        "@league": "29.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.444",
+                                            "@wins": "8"
+                                        },
+                                        "below_500": {
+                                            "@losses": "20",
+                                            "@win_pct": "0.474",
+                                            "@wins": "18"
+                                        },
+                                        "central": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.438",
+                                            "@wins": "7"
+                                        },
+                                        "conference": {
+                                            "@losses": "31",
+                                            "@win_pct": "0.404",
+                                            "@wins": "21"
+                                        },
+                                        "division": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.438",
+                                            "@wins": "7"
+                                        },
+                                        "home": {
+                                            "@losses": "22",
+                                            "@win_pct": "0.463",
+                                            "@wins": "19"
+                                        },
+                                        "last_10": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "northwest": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "over_500": {
+                                            "@losses": "29",
+                                            "@win_pct": "0.341",
+                                            "@wins": "15"
+                                        },
+                                        "overtime": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.625",
+                                            "@wins": "5"
+                                        },
+                                        "pacific": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "road": {
+                                            "@losses": "27",
+                                            "@win_pct": "0.341",
+                                            "@wins": "14"
+                                        },
+                                        "southeast": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.333",
+                                            "@wins": "6"
+                                        },
+                                        "southwest": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.1",
+                                            "@wins": "1"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "27",
+                                            "@win_pct": "0.325",
+                                            "@wins": "13"
+                                        },
+                                        "three_points": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.583",
+                                            "@wins": "7"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "53",
+                                    "@market": "Detroit",
+                                    "@name": "Pistons",
+                                    "@point_diff": "-3.66",
+                                    "@points_against": "104.71",
+                                    "@points_for": "101.05",
+                                    "@win_pct": "0.354",
+                                    "@wins": "29",
+                                    "games-behind": {
+                                        "@conference": "27.0",
+                                        "@division": "27.0",
+                                        "@league": "33.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.611",
+                                            "@wins": "11"
+                                        },
+                                        "below_500": {
+                                            "@losses": "24",
+                                            "@win_pct": "0.478",
+                                            "@wins": "22"
+                                        },
+                                        "central": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.375",
+                                            "@wins": "6"
+                                        },
+                                        "conference": {
+                                            "@losses": "29",
+                                            "@win_pct": "0.442",
+                                            "@wins": "23"
+                                        },
+                                        "division": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.375",
+                                            "@wins": "6"
+                                        },
+                                        "home": {
+                                            "@losses": "24",
+                                            "@win_pct": "0.415",
+                                            "@wins": "17"
+                                        },
+                                        "last_10": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "northwest": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "over_500": {
+                                            "@losses": "29",
+                                            "@win_pct": "0.194",
+                                            "@wins": "7"
+                                        },
+                                        "overtime": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.0",
+                                            "@wins": "0"
+                                        },
+                                        "pacific": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "road": {
+                                            "@losses": "29",
+                                            "@win_pct": "0.293",
+                                            "@wins": "12"
+                                        },
+                                        "southeast": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.333",
+                                            "@wins": "6"
+                                        },
+                                        "southwest": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.1",
+                                            "@wins": "1"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "25",
+                                            "@win_pct": "0.39",
+                                            "@wins": "16"
+                                        },
+                                        "three_points": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.25",
+                                            "@wins": "2"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "4"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "67",
+                                    "@market": "Milwaukee",
+                                    "@name": "Bucks",
+                                    "@point_diff": "-8.18",
+                                    "@points_against": "103.66",
+                                    "@points_for": "95.48",
+                                    "@win_pct": "0.183",
+                                    "@wins": "15",
+                                    "games-behind": {
+                                        "@conference": "41.0",
+                                        "@division": "41.0",
+                                        "@league": "47.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "13",
+                                            "@win_pct": "0.278",
+                                            "@wins": "5"
+                                        },
+                                        "below_500": {
+                                            "@losses": "32",
+                                            "@win_pct": "0.289",
+                                            "@wins": "13"
+                                        },
+                                        "central": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "conference": {
+                                            "@losses": "40",
+                                            "@win_pct": "0.231",
+                                            "@wins": "12"
+                                        },
+                                        "division": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.25",
+                                            "@wins": "4"
+                                        },
+                                        "home": {
+                                            "@losses": "31",
+                                            "@win_pct": "0.244",
+                                            "@wins": "10"
+                                        },
+                                        "last_10": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.1",
+                                            "@wins": "1"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.0",
+                                            "@wins": "0"
+                                        },
+                                        "northwest": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.1",
+                                            "@wins": "1"
+                                        },
+                                        "over_500": {
+                                            "@losses": "35",
+                                            "@win_pct": "0.054",
+                                            "@wins": "2"
+                                        },
+                                        "overtime": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.143",
+                                            "@wins": "1"
+                                        },
+                                        "pacific": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "road": {
+                                            "@losses": "36",
+                                            "@win_pct": "0.122",
+                                            "@wins": "5"
+                                        },
+                                        "southeast": {
+                                            "@losses": "15",
+                                            "@win_pct": "0.167",
+                                            "@wins": "3"
+                                        },
+                                        "southwest": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.0",
+                                            "@wins": "0"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "33",
+                                            "@win_pct": "0.108",
+                                            "@wins": "4"
+                                        },
+                                        "three_points": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.444",
+                                            "@wins": "4"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "3"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@alias": "ATLANTIC",
+                            "@id": "582d6502-9a93-4a8d-8785-69374d732875",
+                            "@name": "Atlantic",
+                            "team": [
+                                {
+                                    "@id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "34",
+                                    "@market": "Toronto",
+                                    "@name": "Raptors",
+                                    "@point_diff": "3.24",
+                                    "@points_against": "98.04",
+                                    "@points_for": "101.28",
+                                    "@win_pct": "0.585",
+                                    "@wins": "48",
+                                    "games-behind": {
+                                        "@conference": "8.0",
+                                        "@division": "0.0",
+                                        "@league": "14.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "below_500": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.756",
+                                            "@wins": "34"
+                                        },
+                                        "central": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.722",
+                                            "@wins": "13"
+                                        },
+                                        "conference": {
+                                            "@losses": "20",
+                                            "@win_pct": "0.615",
+                                            "@wins": "32"
+                                        },
+                                        "division": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.688",
+                                            "@wins": "11"
+                                        },
+                                        "home": {
+                                            "@losses": "15",
+                                            "@win_pct": "0.634",
+                                            "@wins": "26"
+                                        },
+                                        "last_10": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "northwest": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "over_500": {
+                                            "@losses": "23",
+                                            "@win_pct": "0.378",
+                                            "@wins": "14"
+                                        },
+                                        "overtime": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.143",
+                                            "@wins": "1"
+                                        },
+                                        "pacific": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "road": {
+                                            "@losses": "19",
+                                            "@win_pct": "0.537",
+                                            "@wins": "22"
+                                        },
+                                        "southeast": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.444",
+                                            "@wins": "8"
+                                        },
+                                        "southwest": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.8",
+                                            "@wins": "24"
+                                        },
+                                        "three_points": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.273",
+                                            "@wins": "3"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "38",
+                                    "@market": "Brooklyn",
+                                    "@name": "Nets",
+                                    "@point_diff": "-1.0",
+                                    "@points_against": "99.52",
+                                    "@points_for": "98.52",
+                                    "@win_pct": "0.537",
+                                    "@wins": "44",
+                                    "games-behind": {
+                                        "@conference": "12.0",
+                                        "@division": "4.0",
+                                        "@league": "18.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.563",
+                                            "@wins": "9"
+                                        },
+                                        "below_500": {
+                                            "@losses": "20",
+                                            "@win_pct": "0.545",
+                                            "@wins": "24"
+                                        },
+                                        "central": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.389",
+                                            "@wins": "7"
+                                        },
+                                        "conference": {
+                                            "@losses": "26",
+                                            "@win_pct": "0.5",
+                                            "@wins": "26"
+                                        },
+                                        "division": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.563",
+                                            "@wins": "9"
+                                        },
+                                        "home": {
+                                            "@losses": "13",
+                                            "@win_pct": "0.683",
+                                            "@wins": "28"
+                                        },
+                                        "last_10": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "2",
+                                            "@win_pct": "0.8",
+                                            "@wins": "8"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "northwest": {
+                                            "@losses": "5",
+                                            "@win_pct": "0.5",
+                                            "@wins": "5"
+                                        },
+                                        "over_500": {
+                                            "@losses": "18",
+                                            "@win_pct": "0.526",
+                                            "@wins": "20"
+                                        },
+                                        "overtime": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.429",
+                                            "@wins": "3"
+                                        },
+                                        "pacific": {
+                                            "@losses": "4",
+                                            "@win_pct": "0.6",
+                                            "@wins": "6"
+                                        },
+                                        "road": {
+                                            "@losses": "25",
+                                            "@win_pct": "0.39",
+                                            "@wins": "16"
+                                        },
+                                        "southeast": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.556",
+                                            "@wins": "10"
+                                        },
+                                        "southwest": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "20",
+                                            "@win_pct": "0.459",
+                                            "@wins": "17"
+                                        },
+                                        "three_points": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.727",
+                                            "@wins": "8"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "2"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "45",
+                                    "@market": "New York",
+                                    "@name": "Knicks",
+                                    "@point_diff": "-0.79",
+                                    "@points_against": "99.38",
+                                    "@points_for": "98.59",
+                                    "@win_pct": "0.451",
+                                    "@wins": "37",
+                                    "games-behind": {
+                                        "@conference": "19.0",
+                                        "@division": "11.0",
+                                        "@league": "25.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.625",
+                                            "@wins": "10"
+                                        },
+                                        "below_500": {
+                                            "@losses": "22",
+                                            "@win_pct": "0.476",
+                                            "@wins": "20"
+                                        },
+                                        "central": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.5",
+                                            "@wins": "9"
+                                        },
+                                        "conference": {
+                                            "@losses": "26",
+                                            "@win_pct": "0.5",
+                                            "@wins": "26"
+                                        },
+                                        "division": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.625",
+                                            "@wins": "10"
+                                        },
+                                        "home": {
+                                            "@losses": "22",
+                                            "@win_pct": "0.463",
+                                            "@wins": "19"
+                                        },
+                                        "last_10": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.7",
+                                            "@wins": "7"
+                                        },
+                                        "northwest": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "over_500": {
+                                            "@losses": "23",
+                                            "@win_pct": "0.425",
+                                            "@wins": "17"
+                                        },
+                                        "overtime": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.4",
+                                            "@wins": "2"
+                                        },
+                                        "pacific": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "road": {
+                                            "@losses": "23",
+                                            "@win_pct": "0.439",
+                                            "@wins": "18"
+                                        },
+                                        "southeast": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.389",
+                                            "@wins": "7"
+                                        },
+                                        "southwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "22",
+                                            "@win_pct": "0.463",
+                                            "@wins": "19"
+                                        },
+                                        "three_points": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.273",
+                                            "@wins": "3"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "4"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "57",
+                                    "@market": "Boston",
+                                    "@name": "Celtics",
+                                    "@point_diff": "-4.46",
+                                    "@points_against": "100.71",
+                                    "@points_for": "96.24",
+                                    "@win_pct": "0.305",
+                                    "@wins": "25",
+                                    "games-behind": {
+                                        "@conference": "31.0",
+                                        "@division": "23.0",
+                                        "@league": "37.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.313",
+                                            "@wins": "5"
+                                        },
+                                        "below_500": {
+                                            "@losses": "24",
+                                            "@win_pct": "0.368",
+                                            "@wins": "14"
+                                        },
+                                        "central": {
+                                            "@losses": "12",
+                                            "@win_pct": "0.333",
+                                            "@wins": "6"
+                                        },
+                                        "conference": {
+                                            "@losses": "31",
+                                            "@win_pct": "0.404",
+                                            "@wins": "21"
+                                        },
+                                        "division": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.313",
+                                            "@wins": "5"
+                                        },
+                                        "home": {
+                                            "@losses": "25",
+                                            "@win_pct": "0.39",
+                                            "@wins": "16"
+                                        },
+                                        "last_10": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.1",
+                                            "@wins": "1"
+                                        },
+                                        "northwest": {
+                                            "@losses": "7",
+                                            "@win_pct": "0.3",
+                                            "@wins": "3"
+                                        },
+                                        "over_500": {
+                                            "@losses": "33",
+                                            "@win_pct": "0.25",
+                                            "@wins": "11"
+                                        },
+                                        "overtime": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.5",
+                                            "@wins": "1"
+                                        },
+                                        "pacific": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.1",
+                                            "@wins": "1"
+                                        },
+                                        "road": {
+                                            "@losses": "32",
+                                            "@win_pct": "0.22",
+                                            "@wins": "9"
+                                        },
+                                        "southeast": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.556",
+                                            "@wins": "10"
+                                        },
+                                        "southwest": {
+                                            "@losses": "10",
+                                            "@win_pct": "0.0",
+                                            "@wins": "0"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "23",
+                                            "@win_pct": "0.281",
+                                            "@wins": "9"
+                                        },
+                                        "three_points": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.357",
+                                            "@wins": "5"
+                                        }
+                                    },
+                                    "streak": {
+                                        "loss": {
+                                            "@length": "2"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+                                    "@losses": "63",
+                                    "@market": "Philadelphia",
+                                    "@name": "76ers",
+                                    "@point_diff": "-10.45",
+                                    "@points_against": "109.9",
+                                    "@points_for": "99.45",
+                                    "@win_pct": "0.232",
+                                    "@wins": "19",
+                                    "games-behind": {
+                                        "@conference": "37.0",
+                                        "@division": "29.0",
+                                        "@league": "43.0"
+                                    },
+                                    "records": {
+                                        "atlantic": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.313",
+                                            "@wins": "5"
+                                        },
+                                        "below_500": {
+                                            "@losses": "33",
+                                            "@win_pct": "0.298",
+                                            "@wins": "14"
+                                        },
+                                        "central": {
+                                            "@losses": "14",
+                                            "@win_pct": "0.222",
+                                            "@wins": "4"
+                                        },
+                                        "conference": {
+                                            "@losses": "38",
+                                            "@win_pct": "0.269",
+                                            "@wins": "14"
+                                        },
+                                        "division": {
+                                            "@losses": "11",
+                                            "@win_pct": "0.313",
+                                            "@wins": "5"
+                                        },
+                                        "home": {
+                                            "@losses": "31",
+                                            "@win_pct": "0.244",
+                                            "@wins": "10"
+                                        },
+                                        "last_10": {
+                                            "@losses": "6",
+                                            "@win_pct": "0.4",
+                                            "@wins": "4"
+                                        },
+                                        "last_10_home": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "last_10_road": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "northwest": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "over_500": {
+                                            "@losses": "30",
+                                            "@win_pct": "0.143",
+                                            "@wins": "5"
+                                        },
+                                        "overtime": {
+                                            "@losses": "1",
+                                            "@win_pct": "0.8",
+                                            "@wins": "4"
+                                        },
+                                        "pacific": {
+                                            "@losses": "8",
+                                            "@win_pct": "0.2",
+                                            "@wins": "2"
+                                        },
+                                        "road": {
+                                            "@losses": "32",
+                                            "@win_pct": "0.22",
+                                            "@wins": "9"
+                                        },
+                                        "southeast": {
+                                            "@losses": "13",
+                                            "@win_pct": "0.278",
+                                            "@wins": "5"
+                                        },
+                                        "southwest": {
+                                            "@losses": "9",
+                                            "@win_pct": "0.1",
+                                            "@wins": "1"
+                                        },
+                                        "ten_points": {
+                                            "@losses": "46",
+                                            "@win_pct": "0.08",
+                                            "@wins": "4"
+                                        },
+                                        "three_points": {
+                                            "@losses": "3",
+                                            "@win_pct": "0.667",
+                                            "@wins": "6"
+                                        }
+                                    },
+                                    "streak": {
+                                        "win": {
+                                            "@length": "2"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,410 @@
+{
+    "team": {
+        "@alias": "IND",
+        "@founded": "1967",
+        "@id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+        "@market": "Indiana",
+        "@name": "Pacers",
+        "@xmlns": "http://feed.elasticstats.com/schema/basketball/team-v2.0.xsd",
+        "coaches": {
+            "coach": {
+                "@experience": "4",
+                "@first_name": "Frank",
+                "@full_name": "Frank Vogel",
+                "@id": "4da542f4-53fd-4076-95a9-909be9009f1f",
+                "@last_name": "Vogel",
+                "@position": "Head Coach"
+            }
+        },
+        "hierarchy": {
+            "conference": {
+                "@alias": "EASTERN",
+                "@id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+                "@name": "EASTERN CONFERENCE"
+            },
+            "division": {
+                "@alias": "CENTRAL",
+                "@id": "f3aaf23a-1ceb-46ef-8fef-9403692e801b",
+                "@name": "Central"
+            },
+            "league": {
+                "@alias": "NBA",
+                "@id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+                "@name": "NBA"
+            }
+        },
+        "players": {
+            "player": [
+                {
+                    "@abbr_name": "R.Butler",
+                    "@birth_place": "Philadelphia, PA, USA",
+                    "@birthdate": "1979-05-23",
+                    "@college": "La Salle",
+                    "@experience": "10",
+                    "@first_name": "Rasual",
+                    "@full_name": "Rasual Butler",
+                    "@height": "79",
+                    "@id": "007a5e3c-978e-49e3-af38-7a4d9354cf21",
+                    "@jersey_number": "8",
+                    "@last_name": "Butler",
+                    "@position": "G-F",
+                    "@primary_position": "SG",
+                    "@status": "ACT",
+                    "@updated": "2014-02-27T21:50:29+00:00",
+                    "@weight": "215",
+                    "draft": {
+                        "@pick": "53",
+                        "@round": "2",
+                        "@team_id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2002"
+                    }
+                },
+                {
+                    "@abbr_name": "D.Sloan",
+                    "@birth_place": "Shreveport, LA, USA",
+                    "@birthdate": "1988-01-15",
+                    "@college": "Texas A&M",
+                    "@experience": "2",
+                    "@first_name": "Donald",
+                    "@full_name": "Donald Sloan",
+                    "@height": "75",
+                    "@id": "0b131b69-ffc9-4739-9aa0-0d54c1078200",
+                    "@jersey_number": "15",
+                    "@last_name": "Sloan",
+                    "@position": "G",
+                    "@primary_position": "PG",
+                    "@status": "ACT",
+                    "@updated": "2013-07-31T16:38:30+00:00",
+                    "@weight": "205",
+                    "draft": {
+                        "@year": "2010"
+                    }
+                },
+                {
+                    "@abbr_name": "S.Whittington",
+                    "@birth_place": "Paw Paw, MI",
+                    "@birthdate": "1991-03-03",
+                    "@college": "Western Michigan",
+                    "@first_name": "Shayne",
+                    "@full_name": "Shayne Whittington",
+                    "@height": "83",
+                    "@id": "15fc95b7-5f6d-4d71-beda-7d9605a0187b",
+                    "@jersey_number": "0",
+                    "@last_name": "Whittington",
+                    "@position": "C-F",
+                    "@primary_position": "PF",
+                    "@status": "ACT",
+                    "@updated": "2014-07-17T17:22:57+00:00",
+                    "@weight": "237"
+                },
+                {
+                    "@abbr_name": "R.Hibbert",
+                    "@birth_place": "Queens, NY, USA",
+                    "@birthdate": "1986-12-11",
+                    "@college": "Georgetown",
+                    "@experience": "5",
+                    "@first_name": "Roy",
+                    "@full_name": "Roy Hibbert",
+                    "@height": "86",
+                    "@id": "20f69728-18f2-4917-aabf-9893c3bff3be",
+                    "@jersey_number": "55",
+                    "@last_name": "Hibbert",
+                    "@position": "C",
+                    "@primary_position": "C",
+                    "@status": "ACT",
+                    "@updated": "2013-11-08T21:19:36+00:00",
+                    "@weight": "290",
+                    "draft": {
+                        "@pick": "17",
+                        "@round": "1",
+                        "@team_id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2008"
+                    }
+                },
+                {
+                    "@abbr_name": "D.West",
+                    "@birth_place": "Teaneck, NJ, USA",
+                    "@birthdate": "1980-08-29",
+                    "@college": "Xavier (Ohio)",
+                    "@experience": "10",
+                    "@first_name": "David",
+                    "@full_name": "David West",
+                    "@height": "81",
+                    "@id": "2365e884-e0d9-43a4-8efe-a4bd9a14329a",
+                    "@jersey_number": "21",
+                    "@last_name": "West",
+                    "@position": "F",
+                    "@primary_position": "PF",
+                    "@status": "ACT",
+                    "@updated": "2013-07-22T20:51:46+00:00",
+                    "@weight": "250",
+                    "draft": {
+                        "@pick": "18",
+                        "@round": "1",
+                        "@team_id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2003"
+                    }
+                },
+                {
+                    "@abbr_name": "L.Allen",
+                    "@birth_place": "Trenton, NJ, USA",
+                    "@birthdate": "1989-02-04",
+                    "@college": "Temple",
+                    "@experience": "2",
+                    "@first_name": "Lavoy",
+                    "@full_name": "Lavoy Allen",
+                    "@height": "81",
+                    "@id": "37ad80b2-c9f4-4fde-b462-e1109f249b56",
+                    "@jersey_number": "5",
+                    "@last_name": "Allen",
+                    "@position": "F-C",
+                    "@primary_position": "PF",
+                    "@status": "ACT",
+                    "@updated": "2014-02-27T21:49:38+00:00",
+                    "@weight": "255",
+                    "draft": {
+                        "@pick": "50",
+                        "@round": "2",
+                        "@team_id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2011"
+                    }
+                },
+                {
+                    "@abbr_name": "L.Scola",
+                    "@birth_place": "Buenos Aires,, ARG",
+                    "@birthdate": "1980-04-30",
+                    "@college": "Tau Ceramica (Argentina)",
+                    "@experience": "6",
+                    "@first_name": "Luis",
+                    "@full_name": "Luis Scola",
+                    "@height": "81",
+                    "@id": "5be304d2-f98b-4f1b-a040-8cb402644ef7",
+                    "@jersey_number": "4",
+                    "@last_name": "Scola",
+                    "@position": "F",
+                    "@primary_position": "PF",
+                    "@status": "ACT",
+                    "@updated": "2013-11-08T21:20:31+00:00",
+                    "@weight": "240",
+                    "draft": {
+                        "@pick": "56",
+                        "@round": "2",
+                        "@team_id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2002"
+                    }
+                },
+                {
+                    "@abbr_name": "D.Rudez",
+                    "@birth_place": "Zagreb,, Croatia",
+                    "@birthdate": "1986-06-17",
+                    "@first_name": "Damjan",
+                    "@full_name": "Damjan Rudez",
+                    "@height": "82",
+                    "@id": "5de04f66-80d6-48a8-a132-b4fdbe172cdf",
+                    "@jersey_number": "0",
+                    "@last_name": "Rudez",
+                    "@position": "F",
+                    "@primary_position": "SF",
+                    "@status": "ACT",
+                    "@updated": "2014-07-17T17:15:30+00:00",
+                    "@weight": "200"
+                },
+                {
+                    "@abbr_name": "C.Copeland",
+                    "@birth_place": "Orange, NJ, USA",
+                    "@birthdate": "1984-03-17",
+                    "@college": "Colorado",
+                    "@experience": "1",
+                    "@first_name": "Chris",
+                    "@full_name": "Chris Copeland",
+                    "@height": "80",
+                    "@id": "6d991c17-cfc4-4494-918b-b7d766da0dae",
+                    "@jersey_number": "22",
+                    "@last_name": "Copeland",
+                    "@position": "F",
+                    "@primary_position": "SF",
+                    "@status": "ACT",
+                    "@updated": "2013-11-08T21:18:58+00:00",
+                    "@weight": "235",
+                    "draft": {
+                        "@year": "2006"
+                    }
+                },
+                {
+                    "@abbr_name": "G.Hill",
+                    "@birth_place": "Indianapolis, IN, USA",
+                    "@birthdate": "1986-05-04",
+                    "@college": "IUPUI",
+                    "@experience": "5",
+                    "@first_name": "George",
+                    "@full_name": "George Hill",
+                    "@height": "75",
+                    "@id": "6e566165-6674-4306-9994-470f60720a2c",
+                    "@jersey_number": "3",
+                    "@last_name": "Hill",
+                    "@position": "G",
+                    "@primary_position": "PG",
+                    "@status": "ACT",
+                    "@updated": "2013-11-08T21:19:45+00:00",
+                    "@weight": "188",
+                    "draft": {
+                        "@pick": "26",
+                        "@round": "1",
+                        "@team_id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2008"
+                    }
+                },
+                {
+                    "@abbr_name": "C.Miles",
+                    "@birth_place": "Dallas, TX, USA",
+                    "@birthdate": "1987-03-18",
+                    "@college": "Skyline HS (TX)",
+                    "@experience": "8",
+                    "@first_name": "C.J.",
+                    "@full_name": "C.J. Miles",
+                    "@height": "78",
+                    "@id": "732b1bd6-d99a-4971-bc2c-4de4842b4a9a",
+                    "@jersey_number": "0",
+                    "@last_name": "Miles",
+                    "@position": "G",
+                    "@primary_position": "SG",
+                    "@status": "ACT",
+                    "@updated": "2014-07-14T19:21:38+00:00",
+                    "@weight": "231",
+                    "draft": {
+                        "@pick": "34",
+                        "@round": "2",
+                        "@team_id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2005"
+                    }
+                },
+                {
+                    "@abbr_name": "C.Watson",
+                    "@birth_place": "Las Vegas, NV, USA",
+                    "@birthdate": "1984-04-17",
+                    "@college": "Tennessee",
+                    "@experience": "6",
+                    "@first_name": "C.J.",
+                    "@full_name": "C.J. Watson",
+                    "@height": "74",
+                    "@id": "7671f7d9-b7f8-4602-a32d-19f4f1ddae75",
+                    "@jersey_number": "32",
+                    "@last_name": "Watson",
+                    "@position": "G",
+                    "@primary_position": "PG",
+                    "@status": "ACT",
+                    "@updated": "2013-07-31T16:38:00+00:00",
+                    "@weight": "175",
+                    "draft": {
+                        "@year": "2006"
+                    }
+                },
+                {
+                    "@abbr_name": "R.Stuckey",
+                    "@birth_place": "Seattle, WA, USA",
+                    "@birthdate": "1986-04-21",
+                    "@college": "Eastern Washington",
+                    "@experience": "6",
+                    "@first_name": "Rodney",
+                    "@full_name": "Rodney Stuckey",
+                    "@height": "77",
+                    "@id": "b4a94a3a-8563-49bd-97d2-98161cfb6c8d",
+                    "@jersey_number": "0",
+                    "@last_name": "Stuckey",
+                    "@position": "G",
+                    "@primary_position": "SG",
+                    "@status": "ACT",
+                    "@updated": "2014-07-22T21:34:46+00:00",
+                    "@weight": "205",
+                    "draft": {
+                        "@pick": "15",
+                        "@round": "1",
+                        "@team_id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2007"
+                    }
+                },
+                {
+                    "@abbr_name": "I.Mahinmi",
+                    "@birth_place": "Rouen,, FRA",
+                    "@birthdate": "1986-11-05",
+                    "@experience": "5",
+                    "@first_name": "Ian",
+                    "@full_name": "Ian Mahinmi",
+                    "@height": "83",
+                    "@id": "d2abbbb8-0d36-49d4-9785-d8664021eb78",
+                    "@jersey_number": "28",
+                    "@last_name": "Mahinmi",
+                    "@position": "C",
+                    "@primary_position": "C",
+                    "@status": "ACT",
+                    "@updated": "2013-11-08T21:20:16+00:00",
+                    "@weight": "250",
+                    "draft": {
+                        "@pick": "28",
+                        "@round": "1",
+                        "@team_id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2005"
+                    }
+                },
+                {
+                    "@abbr_name": "P.George",
+                    "@birth_place": "Palmdale, CA, USA",
+                    "@birthdate": "1990-05-02",
+                    "@college": "Fresno State",
+                    "@experience": "3",
+                    "@first_name": "Paul",
+                    "@full_name": "Paul George",
+                    "@height": "80",
+                    "@id": "db09f372-9a17-4889-add7-bf8a75ab6da6",
+                    "@jersey_number": "24",
+                    "@last_name": "George",
+                    "@position": "F-G",
+                    "@primary_position": "SF",
+                    "@status": "ACT",
+                    "@updated": "2014-02-27T21:50:43+00:00",
+                    "@weight": "220",
+                    "draft": {
+                        "@pick": "10",
+                        "@round": "1",
+                        "@team_id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2010"
+                    }
+                },
+                {
+                    "@abbr_name": "S.Hill",
+                    "@birth_place": "Los Angeles, CA, USA",
+                    "@birthdate": "1991-03-18",
+                    "@college": "Arizona",
+                    "@experience": "0",
+                    "@first_name": "Solomon",
+                    "@full_name": "Solomon Hill",
+                    "@height": "79",
+                    "@id": "e68c7b19-7c0e-49a6-920c-48668f7ddbcf",
+                    "@jersey_number": "9",
+                    "@last_name": "Hill",
+                    "@position": "F",
+                    "@primary_position": "SF",
+                    "@status": "ACT",
+                    "@updated": "2014-01-23T06:30:10+00:00",
+                    "@weight": "225",
+                    "draft": {
+                        "@pick": "23",
+                        "@round": "1",
+                        "@team_id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+                        "@year": "2013"
+                    }
+                }
+            ]
+        },
+        "venue": {
+            "@address": "125 S. Pennsylvania St.",
+            "@capacity": "18165",
+            "@city": "Indianapolis",
+            "@country": "USA",
+            "@id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+            "@name": "Bankers Life Fieldhouse",
+            "@state": "IN",
+            "@zip": "46204"
+        }
+    }
+}

@@ -11,6 +11,49 @@ def timer_second():
         now = time.localtime(time.time())
         return int(now[5])
 
+def api_key_apply(key = "d228mz9pj9me2xr577u57qph", start_over = "N"):
+    with open ("/Users/kshen4/code/sportdataanalysis/NBA_Code/API-KEY.json") as dig5:
+        data5 = json.load(dig5)
+    dig5.close()
+    i = 0
+    while data5[i]["@key_id"] != key and i != len(data5)-1:
+        i += 1
+    if i == len(data5)-1 or data5[i]["@usage"] >= 1000:
+        start_over = "Y"
+
+    if start_over == "Y":
+        i = 0
+        while data5[i]["@usage"] >= 1000 and i != len(data5)-1:
+            i += 1
+        key = data5[i]["@key_id"]
+
+    if i == len(data5)-1 and data5[i]["@usage"] >= 1000:
+        print ("Running out of API KEY")
+        return None
+    else:
+        data5[i]["@usage"] += 1
+        if data5[i]["@usage"] == 1000:
+            if i == len(data5)-1:
+                with open ("/Users/kshen4/code/sportdataanalysis/NBA_Code/API-KEY.json", "w") as dig4:
+                    dig4.write(json.dumps(data5))
+                print (key, data5[i]["@usage"])
+                print ("Running out of API KEY")
+                return None
+            else:
+                print (key, data5[(i)]["@usage"])
+                i += 1
+                key = data5[(i)]["@key_id"]
+
+        with open ("/Users/kshen4/code/sportdataanalysis/NBA_Code/API-KEY.json", "w") as dig4:
+            dig4.write(json.dumps(data5))
+        print (key, data5[i]["@usage"])
+        return key
+
+
+    with open ("/Users/kshen4/code/sportdataanalysis/NBA_Code/API-KEY.json", "w") as dig4:
+        dig4.write(json.dumps(data5))
+    print (key, data5[i]["@usage"])
+
 
 def fetch(url,numb,home,away,time,file_dirc,single):
         http_header = {'User-Agent':'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1',
@@ -136,40 +179,101 @@ def pythonXmlToJson_team(url, numb, team, file_dirc, single):
 
 
 
-# make different game files
+
+
+
 with open('/Users/kshen4/code/sportdataanalysis/NBA_Data/Regular/Schedule_json/Schedule.json') as dig:
     data = json.load(dig)
 #pprint(data)
 dig.close()
 
-# i = 0
-# wanted_second = current_second = timer_second()
-# print (wanted_second)
-# print (current_second)
+
+team_list = []
+team_name_list = []
+for j in range(len(data["league"]["season-schedule"]["games"]["game"])):
+    home = data["league"]["season-schedule"]["games"]["game"][j]["home"]["@alias"]
+    home_id = data["league"]["season-schedule"]["games"]["game"][j]["home"]["@id"]
+    away = data["league"]["season-schedule"]["games"]["game"][j]["away"]["@alias"]
+    away_id = data["league"]["season-schedule"]["games"]["game"][j]["away"]["@id"]
+    if home_id not in team_list:
+        team_list.append(home_id)
+        team_name_list.append(home)
+
+
+
 
 download = ["Game_Boxscore", "Standings", "Rankings", "League_Hierarchy", "Team_Profile", "Player_Profile", "Injuries", "Game_Summary", "Play_by_play", "Seasonal_Statistics", "Daily_Change", "Daily_Transfer"]
+print (download)
+print ('\n')
 
-api_key = ["zd2jzy692szrht42y8ausdwg", "pu4wstfufst3jnmndnaza2xy", "f73zru3z3rranm82am6zfcmn", "8c477fsjre4cva3v82k68uvp", "knrbfr7hdstrmutvy9xjxaz6", "hx6kxn72gcd27hgabrcrgcx5", "kyzz73ecrpz6nbc8ytnhpagf", "d2q8cdrzq45tdqt3s9ynzg5e", "u8jcprmtaywka2ta47rgwseu", "d228mz9pj9me2xr577u57qph", "9vnzpnprb44gqpgdsfwenyws", "smbx6w36mgtz9x7w7r6rptp6", "8zrcma92awsgs43z2vn27f4u", "wa47fsysucf9mbqxtyzmftew", "trctsrdgxfbvcq4uhymeg5ag", "q9c8ugs5bgjteec563k9c4qf", "8y9w6se9krtx99qesr7y384t"]
-key_counter1 = 0
-key_counter2 = 0
-key = api_key[0]
+# if if_start_over = "N":
+#     if if_single_document = "single":
+#         Good4 = True
+#         while Good4:
+index_1 = True
+index_2 = True
+while index_1:
+    start_over_1 = input("You want to start from begining? (Y/N): ")
+    if start_over_1 == "Y":
+        index_2 = False
+        ask = "Game_Boxscore"
+    if start_over_1 == "Y" or start_over_1 == "N":
+        index_1 = False
+
+if index_2 == False:
+    file_dirctory = "/Users/kshen4/code/sportdataanalysis/NBA_Data/Regular/Game_Boxscore_json/0b3d21c7-c13f-4ee8-8d9d-4f334754c7e4_IND_ORL_2013-10-29T23/00/00+00/00.json"
+
+Good_3 = True
+while Good_3 & index_2:
+    file_dirctory = input("Please enter the file directory you want to download:")
+    if file_dirctory[:54] == "/Users/kshen4/code/sportdataanalysis/NBA_Data/Regular/":
+        for item in download:
+            if file_dirctory[54:].find(item) != -1:
+                ask = item
+                Good_3 = False
+                index_2 = False
+
+
+download_index = download.index(ask)
+for thing in range(download_index):
+    del download[0]
+print (download)
+
+great_index = file_dirctory[54:]
+flash_index_1 = great_index.find("/")
+flash_index_1 += 1
+flash_index_2 = great_index[flash_index_1:].find("_")
+flash_index_2 += flash_index_1
+match_start_id = great_index[flash_index_1:flash_index_2]
+
+if ask in ["Game_Boxscore", "Game_Summary", "Play_by_play"]:
+    print (match_start_id)
+    start_number = 0
+    while data["league"]["season-schedule"]["games"]["game"][start_number]["@id"] != match_start_id:
+        start_number += 1
+    print (start_number)
+
+elif ask in ["Daily_Change", "Daily_Transfer"]:
+    flash_index_2 = flash_index_1 + 2
+    start_number = int(great_index[flash_index_1: flash_index_2])
+    print (start_number)
+
+elif ask in ["Player_Profile", "Team_Profile", "Seasonal_Statistics"]:
+    print (match_start_id)
+
+
+
+
+
+
+
+
+
+
+
+
 
 try:
-
-    team_list = []
-    team_name_list = []
-    for j in range(len(data["league"]["season-schedule"]["games"]["game"])):
-        home = data["league"]["season-schedule"]["games"]["game"][j]["home"]["@alias"]
-        home_id = data["league"]["season-schedule"]["games"]["game"][j]["home"]["@id"]
-        away = data["league"]["season-schedule"]["games"]["game"][j]["away"]["@alias"]
-        away_id = data["league"]["season-schedule"]["games"]["game"][j]["away"]["@id"]
-        if home_id not in team_list:
-            team_list.append(home_id)
-            team_name_list.append(home)
-
-    print (team_list)
-    print (team_name_list)
-
 
 
     for item in download:
@@ -178,23 +282,17 @@ try:
             for r in range(len(team_list)):
                 tm_id = team_list[r]
                 tm = team_name_list[r]
-                if item == "Team_Profile":
-                    url = "http://api.sportsdatallc.org/nba-t3/teams/" + str(tm_id) + "/profile.xml?api_key=" + str(key)
-                elif item == "Seasonal_Statistics":
-                    url = "http://api.sportsdatallc.org/nba-t3/seasontd/2013/reg/teams/" + str(tm_id) + "/statistics.xml?api_key=" + str(key)
                 if __name__ == "__main__":
-                    fetch_team(url, tm_id, tm, item, single)
-                    pythonXmlToJson_team(url, tm_id, tm, item, single)
-                time.sleep(1)
+                    if tm_id == match_start_id or ask not in ["Seasonal_Statistics", "Team_Profile"]:
+                        key = api_key_apply()
+                        if item == "Team_Profile":
+                            url = "http://api.sportsdatallc.org/nba-t3/teams/" + str(tm_id) + "/profile.xml?api_key=" + str(key)
+                        elif item == "Seasonal_Statistics":
+                            url = "http://api.sportsdatallc.org/nba-t3/seasontd/2013/reg/teams/" + str(tm_id) + "/statistics.xml?api_key=" + str(key)
+                        fetch_team(url, tm_id, tm, item, single)
+                        pythonXmlToJson_team(url, tm_id, tm, item, single)
+                    time.sleep(1)
 
-
-
-                key_counter1 += 1
-                if key_counter1 >= 950:
-                    key_counter2 += 1
-                    key = api_key[key_counter2]
-                    key_counter1 = 0
-                print (str(key) + " " + str(key_counter1))
 
         elif item == "Player_Profile":
             single = "N"
@@ -208,27 +306,23 @@ try:
                 for h in range(len(data2["team"]["players"]["player"])):
                     player_id = data2["team"]["players"]["player"][h]["@id"]
                     player_name = data2["team"]["players"]["player"][h]["@full_name"]
-                    url = "http://api.sportsdatallc.org/nba-t3/players/" + str(player_id) + "/profile.xml?api_key=" + str(key)
                     if __name__ == "__main__":
-                        fetch_team(url, player_id, player_name, item, single)
-                        pythonXmlToJson_team(url, player_id, player_name, item, single)
-                    time.sleep(1)
+                        if match_start_id == player_id or ask!= "Player_Profile":
+                            key = api_key_apply()
+                            url = "http://api.sportsdatallc.org/nba-t3/players/" + str(player_id) + "/profile.xml?api_key=" + str(key)
+                            fetch_team(url, player_id, player_name, item, single)
+                            pythonXmlToJson_team(url, player_id, player_name, item, single)
+                        time.sleep(1)
 
-
-
-                    key_counter1 += 1
-                    if key_counter1 >= 950:
-                        key_counter2 += 1
-                        key = api_key[key_counter2]
-                        key_counter1 = 0
-                    print (str(key) + " " + str(key_counter1))
 
 
 
         elif item == "Daily_Change" or item == "Daily_Transfer":
             single = "N"
-            month_list = {10 : 31, 11 : 30, 12 : 31, 1 : 31, 2 : 28, 3 : 31, 4 : 17}
-            for m in [10,11,12,1,2,3,4]:
+            if ask not in ["Daily_Change", "Daily_Transfer"]:
+                start_number = 1
+            month_list = {10 : 31, 11 : 30, 12 : 31, 1 : 31, 2 : 28, 3 : 31, 4 : 17, 5 : 0, 6 : 0, 7 : 0, 8 : 0, 9 : 0}
+            for m in range(start_number, 13):
                 for d in range(month_list.get(m)):
                     d_1 = d+1
                     d_s = str(d_1)
@@ -238,6 +332,7 @@ try:
                     if len(m_s) == 1:
                         m_s = "0" + m_s
                     m_d = m_s + "_" + d_s
+                    key = api_key_apply()
 
                     if m in [10, 11, 12]:
                         y_s = "2013"
@@ -253,15 +348,10 @@ try:
                         pythonXmlToJson_team(url, m_d, y_s, item, single)
                     time.sleep(1)
 
-                    key_counter1 += 1
-                    if key_counter1 >= 950:
-                        key_counter2 += 1
-                        key = api_key[key_counter2]
-                        key_counter1 = 0
-                    print (str(key) + " " + str(key_counter1))
 
         elif item in ["Standings", "Rankings", "League_Hierarchy", "Injuries"]:
             single = "Y"
+            key = api_key_apply()
             if item == "Standings":
                 url = "http://api.sportsdatallc.org/nba-t3/seasontd/2013/reg/standings.xml?api_key=" + str(key)
             elif item == "Rankings":
@@ -276,12 +366,6 @@ try:
                 pythonXmlToJson_team(url, "", item, item, single)
             time.sleep(1)
 
-            key_counter1 += 1
-            if key_counter1 >= 950:
-                key_counter2 += 1
-                key = api_key[key_counter2]
-                key_counter1 = 0
-            print (str(key) + " " + str(key_counter1))
 
 
 
@@ -289,13 +373,18 @@ try:
 
         elif item in ["Game_Boxscore", "Game_Summary", "Play_by_play"]:
             single = "N"
-            for i in range(len(data["league"]["season-schedule"]["games"]["game"])):
+            if ask not in ["Game_Boxscore", "Game_Summary", "Play_by_play"]:
+                start_number = 0
+
+            for i in range(start_number,len(data["league"]["season-schedule"]["games"]["game"])):
                 game_id = data["league"]["season-schedule"]["games"]["game"][i]["@id"]
                 home = data["league"]["season-schedule"]["games"]["game"][i]["home"]["@alias"]
                 home_id = data["league"]["season-schedule"]["games"]["game"][i]["home"]["@id"]
                 away = data["league"]["season-schedule"]["games"]["game"][i]["away"]["@alias"]
                 away_id = data["league"]["season-schedule"]["games"]["game"][i]["away"]["@id"]
                 date = data["league"]["season-schedule"]["games"]["game"][i]["@scheduled"]
+
+                key = api_key_apply()
 
                 if item == "Game_Boxscore":
                     url = "http://api.sportsdatallc.org/nba-t3/games/" + str(game_id) + "/boxscore.xml?api_key=" + str(key)
@@ -309,14 +398,7 @@ try:
                     pythonXmlToJson(url, game_id, home, away, date, item, single)
                 time.sleep(1)
 
-                key_counter2 += 1
-                key = api_key[key_counter2]
-                # key_counter1 += 1
-                # if key_counter1 >= 950:
-                #     key_counter2 += 1
-                #     key = api_key[key_counter2]
-                #     key_counter1 = 0
-                print (str(key) + " " + str(key_counter1))
+
 
                 # i += 1
                 # wanted_second += 2
@@ -324,7 +406,7 @@ try:
                 #         wanted_second = 1
                 # elif wanted_second == 62:
                 #         wanted_second = 2
-                # time.sleep(1)
+                # time.sleep(2)
                 # print (current_second)
                 # print (wanted_second)
                 # print (timer_second())
