@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generation started @ 2014-07-23 20:57:03 +0000 -->
+<!-- Generation started @ 2014-07-25 21:17:47 +0000 -->
 <league xmlns="http://feed.elasticstats.com/schema/basketball/nba/hierarchy-v2.0.xsd" id="4353138d-4c22-4396-95d8-5f587d2df25c" name="NBA" alias="NBA">
   <conference id="3960cfac-7361-4b30-bc25-8d393de6f62f" name="EASTERN CONFERENCE" alias="EASTERN">
     <division id="54dc7348-c1d2-40d8-88b3-c4c0138e085d" name="Southeast" alias="SOUTHEAST">
@@ -108,4 +108,4 @@
     </division>
   </conference>
 </league>
-<!-- Generation ended @ 2014-07-23 20:57:03 +0000 -->
+<!-- Generation ended @ 2014-07-25 21:17:48 +0000 -->

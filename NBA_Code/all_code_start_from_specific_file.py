@@ -136,6 +136,7 @@ def pythonXmlToJson(url,numb,home,away,time,file_dirc,single):
     convertedDict = xmltodict.parse(bin_data)
     jsonStr = json.dumps(convertedDict)
     print("jsonStr=", jsonStr)
+    print(doc_name_json)
 
     try:
             with open(doc_name_json, "w") as dig:
@@ -169,6 +170,7 @@ def pythonXmlToJson_team(url, numb, team, file_dirc, single):
     convertedDict = xmltodict.parse(bin_data)
     jsonStr = json.dumps(convertedDict)
     print("jsonStr=", jsonStr)
+    print (doc_name_json)
 
     try:
             with open(doc_name_json, "w") as dig:
@@ -198,11 +200,18 @@ for j in range(len(data["league"]["season-schedule"]["games"]["game"])):
     if home_id not in team_list:
         team_list.append(home_id)
         team_name_list.append(home)
+    if home_id not in team_list:
+        team_list.append(home_id)
+        team_name_list.append(home)
+    if "WEST" in team_name_list:
+        team_name_list.remove("WEST")
+        del team_list[30]
 
 
 
 
-download = ["Game_Boxscore", "Standings", "Rankings", "League_Hierarchy", "Team_Profile", "Player_Profile", "Injuries", "Game_Summary", "Play_by_play", "Seasonal_Statistics", "Daily_Change", "Daily_Transfer"]
+# download = ["Game_Boxscore", "Standings", "Rankings", "League_Hierarchy", "Team_Profile", "Player_Profile", "Injuries", "Game_Summary", "Play_by_play", "Seasonal_Statistics", "Daily_Change", "Daily_Transfer"]
+download = ["Play_by_play"]
 print (download)
 print ('\n')
 
@@ -258,9 +267,14 @@ elif ask in ["Daily_Change", "Daily_Transfer"]:
     start_number = int(great_index[flash_index_1: flash_index_2])
     print (start_number)
 
-elif ask in ["Player_Profile", "Team_Profile", "Seasonal_Statistics"]:
+elif ask in ["Team_Profile", "Seasonal_Statistics"]:
     print (match_start_id)
 
+elif ask == "Player_Profile":
+    print (match_start_id)
+    with open(file_dirctory) as dig9:
+        data_temp = json.load(dig9)
+    start_team_id = data_temp["player"]["team"]["@id"]
 
 
 
@@ -279,11 +293,18 @@ try:
     for item in download:
         if item == "Team_Profile" or item == "Seasonal_Statistics":
             single = "N"
+            found_tm_id = False
             for r in range(len(team_list)):
                 tm_id = team_list[r]
                 tm = team_name_list[r]
                 if __name__ == "__main__":
-                    if tm_id == match_start_id or ask not in ["Seasonal_Statistics", "Team_Profile"]:
+                    if tm_id == match_start_id and ask in ["Seasonal_Statistics", "Team_Profile"]:
+                        found_tm_id = True
+
+                    if found_tm_id == False and ask in ["Seasonal_Statistics", "Team_Profile"]:
+                        pass
+
+                    else:
                         key = api_key_apply()
                         if item == "Team_Profile":
                             url = "http://api.sportsdatallc.org/nba-t3/teams/" + str(tm_id) + "/profile.xml?api_key=" + str(key)
@@ -291,28 +312,41 @@ try:
                             url = "http://api.sportsdatallc.org/nba-t3/seasontd/2013/reg/teams/" + str(tm_id) + "/statistics.xml?api_key=" + str(key)
                         fetch_team(url, tm_id, tm, item, single)
                         pythonXmlToJson_team(url, tm_id, tm, item, single)
-                    time.sleep(1)
+                        time.sleep(1)
+
 
 
         elif item == "Player_Profile":
             single = "N"
+            found_player_id = False
+            found_team_id = False
             for r in range(len(team_list)):
                 tm_id = team_list[r]
                 tm = team_name_list[r]
-                document_name = "/Users/kshen4/code/sportdataanalysis/NBA_Data/Regular/Team_Profile_json/" + str(tm_id) + "_" + str(tm) + ".json"
-                with open(document_name) as dig2:
-                    data2 = json.load(dig2)
-                dig2.close()
-                for h in range(len(data2["team"]["players"]["player"])):
-                    player_id = data2["team"]["players"]["player"][h]["@id"]
-                    player_name = data2["team"]["players"]["player"][h]["@full_name"]
-                    if __name__ == "__main__":
-                        if match_start_id == player_id or ask!= "Player_Profile":
-                            key = api_key_apply()
-                            url = "http://api.sportsdatallc.org/nba-t3/players/" + str(player_id) + "/profile.xml?api_key=" + str(key)
-                            fetch_team(url, player_id, player_name, item, single)
-                            pythonXmlToJson_team(url, player_id, player_name, item, single)
-                        time.sleep(1)
+                if start_team_id == tm_id:
+                    found_team_id = True
+                if found_team_id == False and ask == "Player_Profile":
+                    pass
+                else:
+                    document_name = "/Users/kshen4/code/sportdataanalysis/NBA_Data/Regular/Team_Profile_json/" + str(tm_id) + "_" + str(tm) + ".json"
+                    with open(document_name) as dig2:
+                        data2 = json.load(dig2)
+                    dig2.close()
+                    for h in range(len(data2["team"]["players"]["player"])):
+                        player_id = data2["team"]["players"]["player"][h]["@id"]
+                        player_name = data2["team"]["players"]["player"][h]["@full_name"]
+                        if __name__ == "__main__":
+                            if match_start_id == player_id and  ask == "Player_Profile":
+                                found_player_id = True
+                            if found_player_id == False and ask == "Player_Profile":
+                                pass
+
+                            else:
+                                key = api_key_apply()
+                                url = "http://api.sportsdatallc.org/nba-t3/players/" + str(player_id) + "/profile.xml?api_key=" + str(key)
+                                fetch_team(url, player_id, player_name, item, single)
+                                pythonXmlToJson_team(url, player_id, player_name, item, single)
+                                time.sleep(1)
 
 
 
@@ -346,7 +380,7 @@ try:
                     if __name__ == "__main__":
                         fetch_team(url, m_d, y_s, item, single)
                         pythonXmlToJson_team(url, m_d, y_s, item, single)
-                    time.sleep(1)
+                        time.sleep(1)
 
 
         elif item in ["Standings", "Rankings", "League_Hierarchy", "Injuries"]:
@@ -364,7 +398,7 @@ try:
             if __name__ == "__main__":
                 fetch_team(url, "", item, item, single)
                 pythonXmlToJson_team(url, "", item, item, single)
-            time.sleep(1)
+                time.sleep(1)
 
 
 
@@ -396,7 +430,7 @@ try:
                 if __name__ == "__main__":
                     fetch(url, game_id, home, away, date, item, single)
                     pythonXmlToJson(url, game_id, home, away, date, item, single)
-                time.sleep(1)
+                    time.sleep(1)
 
 
 

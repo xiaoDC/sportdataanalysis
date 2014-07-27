@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generation started @ 2014-07-25 10:10:23 +0000 -->
+<!-- Generation started @ 2014-07-27 10:22:26 +0000 -->
 <league xmlns="http://feed.elasticstats.com/schema/basketball/transfers-v2.0.xsd" id="4353138d-4c22-4396-95d8-5f587d2df25c" name="NBA" alias="NBA">
   <transfers start_time="2013-10-09T04:00:00+00:00" end_time="2013-10-10T03:59:59+00:00">
     <player id="e56c4cbf-a2bd-4878-9fec-c061bfcbaae8" full_name="Cameron Jones" first_name="Cameron" last_name="Jones" position="G" primary_position="SG" jersey_number="6">
@@ -29,4 +29,4 @@
     </player>
   </transfers>
 </league>
-<!-- Generation ended @ 2014-07-25 10:10:23 +0000 -->
+<!-- Generation ended @ 2014-07-27 10:22:26 +0000 -->

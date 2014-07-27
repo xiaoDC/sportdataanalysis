@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generation started @ 2014-07-14 18:48:24 +0000 -->
+<!-- Generation started @ 2014-07-25 16:32:12 +0000 -->
 <team xmlns="http://feed.elasticstats.com/schema/basketball/team-v2.0.xsd" id="583ec87d-fb46-11e1-82cb-f4ce4684ea4c" name="76ers" alias="PHI" market="Philadelphia" founded="1946">
   <venue id="b3dca541-859e-5301-bf90-4ec677a514a9" name="Wells Fargo Center" capacity="20328" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
   <hierarchy>
@@ -40,6 +40,9 @@
     <player id="38286e87-15e7-473f-acb3-14f4699a9825" status="SUS" full_name="Arnett Moultrie" first_name="Arnett" last_name="Moultrie" abbr_name="A.Moultrie" height="82" weight="240" position="F" primary_position="PF" jersey_number="5" experience="1" college="Mississippi State" birth_place="Queens, NY, USA" birthdate="1990-11-18" updated="2014-03-31T16:49:57+00:00">
       <draft team_id="583ecea6-fb46-11e1-82cb-f4ce4684ea4c" year="2012" round="1" pick="27"/>
     </player>
+    <player id="55e9d1e5-6ea3-4475-9877-d9d1f5f1910d" status="ACT" full_name="Pierre Jackson" first_name="Pierre" last_name="Jackson" abbr_name="P.Jackson" height="70" weight="180" position="G" primary_position="PG" jersey_number="0" experience="0" college="Baylor" birth_place="Las Vegas, NV, USA" birthdate="1991-08-29" updated="2014-07-25T16:32:12+00:00">
+      <draft team_id="583ec87d-fb46-11e1-82cb-f4ce4684ea4c" year="2013" round="2" pick="42"/>
+    </player>
     <player id="5b315e15-6633-4ce2-8200-71b821553314" status="ACT" full_name="Jerami Grant" first_name="Jerami" last_name="Grant" abbr_name="J.Grant" height="80" weight="214" position="F" primary_position="SF" experience="0" college="Syracuse" birth_place="HYATTSVILLE, MD" birthdate="1994-03-12" updated="2014-07-14T18:39:06+00:00">
       <draft team_id="583ec87d-fb46-11e1-82cb-f4ce4684ea4c" year="2014" round="2nd" pick="39th"/>
     </player>
@@ -72,4 +75,4 @@
     </player>
   </players>
 </team>
-<!-- Generation ended @ 2014-07-14 18:48:25 +0000 -->
+<!-- Generation ended @ 2014-07-25 16:32:13 +0000 -->
